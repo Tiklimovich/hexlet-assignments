@@ -2,6 +2,7 @@ package exercise;
 
 // BEGIN
 public class Point {
+
     private int x;
     private int y;
 
@@ -11,11 +12,10 @@ public class Point {
     }
 
     public int getX() {
-        return x;
+        return this.x;
     }
-
     public int getY() {
-        return y;
+        return this.y;
     }
 }
 // END
