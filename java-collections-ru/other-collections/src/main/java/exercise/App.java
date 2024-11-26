@@ -11,7 +11,7 @@ class App {
         Set<String> values = new TreeSet<>(map1.keySet());
         values.addAll(map2.keySet());
         Map<String, String> result = new LinkedHashMap<>();
-        for(String key: values) {
+        for (String key: values) {
             var data1 = map1.containsKey(key);
             var data2 = map2.containsKey(key);
             if (!data1) {

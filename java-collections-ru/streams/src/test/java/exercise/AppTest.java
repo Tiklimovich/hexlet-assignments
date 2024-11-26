@@ -17,7 +17,7 @@ class AppTest {
             "key@yandex.ru",
             "sergey@gmail.com",
             "vovan@gmail.com",
-            "vovan@hotmail.com"
+            "vovan@hotmail.com",
         };
         List<String> emailsList = Arrays.asList(emails);
         assertThat(App.getCountOfFreeEmails(emailsList)).isEqualTo(7);
